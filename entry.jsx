@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, IndexRoute, hashHistory, withRouter} from 'react-router';
-import Congrats from './congrats';
+import Main from './main';
 
 const routes = (
-    <Route path="/" component={Congrats}>
+    <Route path="/" component={Main}>
 
     </Route>
 );
